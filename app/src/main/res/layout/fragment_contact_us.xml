@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_contact_us">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contact_us_contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact us"
+                android:textColor="@color/seaBlue"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal" />
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/message_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="message:"
+                    android:textColor="@color/seaBlue"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_contact_us"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="bottom"/>
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/seaBlue"
+                        android:theme="@style/EditText" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/btn_contact_us"
+                    android:layout_width="100dp"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="36dp"
+                    android:src="@drawable/btn_contact_us"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FoggySpace</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="foggy_space">The Foggy Space was
+        formed in 2017. All of our partners are
+        interested in producing of qualitative
+        Ukrainian e-liquid. Nowadays there are
+        many offers for vape-customers, but we
+        hope that our product will show our clients
+        something new in vaping.</string>
+    <string name="top_service">The Foggy Space offers
+        our customers highly organized service. We are
+        ready to help you with your questions. Our
+        specialists will help in solution your troubles
+        with choosing of devices or e-liquids, some
+        dairy problems with vape are easy for us. We
+        are always happy to communicate with you.</string>
+    <string name="our_goals">Our mission is helping
+        beginners in vaping use only qualitative
+        e-liquids and devices. The purpose is
+        populating vaping in Ukraine and CIS.</string>
+    <string name="quick_delivery">There is really easy
+        system of delivering your goods. We cooperate
+        with Nova Poshta, if you made the order in
+        workday, it would be delivered during 2 days.
+        If it is comfortable for you, you can pay for
+        your order with your cash-card with terminal
+        or app of the bank on your mobile device.</string>
+    <string name="eliquids">Although we have not
+        so big line of e-liquids(only 4 tastes),
+        we try focus on the tastes really carefully,
+        also it is more easy for you to choose your
+        own favorite taste!</string>
+
+</resources>
