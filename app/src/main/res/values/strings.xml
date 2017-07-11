@@ -34,5 +34,165 @@
         we try focus on the tastes really carefully,
         also it is more easy for you to choose your
         own favorite taste!</string>
-
+    <string-array name="tastes">
+        <item>Blue Andromeda</item>
+        <item>Dark Commet</item>
+        <item>Faraway Galaxy</item>
+        <item>Martian Dust</item>
+    </string-array>
+    <string name="data">
+        Blue Andromeda#This is fusion
+        of fresh fruits and delicious backery.
+        Refined notes in the bottle will drive
+        you crazy. Lets try your best taste in
+        the world!#10;Dark Commet#This is fusion
+        of fresh fruits and delicious backery.
+        Refined notes in the bottle will drive
+        you crazy. Lets try your best taste in
+        the world!#10;Faraway Galaxy#This is
+        fusion of fresh fruits and delicious
+        backery. Refined notes in the bottle
+        will drive you crazy. Lets try your best
+        taste in the world!#10;Martian Dust#This
+        is fusion of fresh fruits and delicious
+        backery. Refined notes in the bottle will
+        drive you crazy. Lets try your best
+        taste in the world!#10;
+    </string>
+    <string-array name="wiresInCoil">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="numberOfCoils">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="coilType">
+        <item>Normal</item>
+        <item>Micro</item>
+        <item>Clapton</item>
+    </string-array>
+    <string-array name="wireDiameter">
+        <item>0.10mm(AWG 38)</item>
+        <item>0.11mm(AWG 37)</item>
+        <item>0.12mm(AWG 36)</item>
+        <item>0.14mm(AWG 35)</item>
+        <item>0.15mm</item>
+        <item>0.16mm(AWG 34)</item>
+        <item>0.18mm(AWG 33)</item>
+        <item>0.20mm(AWG 32)</item>
+        <item>0.22mm(AWG 31)</item>
+        <item>0.25mm(AWG 30)</item>
+        <item>0.28mm(AWG 29)</item>
+        <item>0.30mm</item>
+        <item>0.32mm(AWG 28)</item>
+        <item>0.35mm</item>
+        <item>0.36mm(AWG 27)</item>
+        <item>0.38mm</item>
+        <item>0.40mm(AWG 26)</item>
+        <item>0.45mm(AWG 25)</item>
+        <item>0.50mm</item>
+        <item>0.51mm(AWG 24)</item>
+        <item>0.57mm(AWG 23)</item>
+        <item>0.60mm</item>
+        <item>0.63mm</item>
+        <item>0.64mm(AWG 22)</item>
+        <item>0.70mm</item>
+        <item>0.71mm(AWG 21)</item>
+        <item>0.80mm</item>
+        <item>0.81mm(AWG 20)</item>
+        <item>0.90mm</item>
+        <item>0.91mm(AWG 19)</item>
+        <item>1.0mm</item>
+        <item>1.02mm(AWG 18)</item>
+    </string-array>
+    <string-array name="coilDiameter">
+        <item>0.5mm</item>
+        <item>0,6mm</item>
+        <item>0,7mm</item>
+        <item>0,8mm</item>
+        <item>0,9mm</item>
+        <item>1mm</item>
+        <item>1,25mm</item>
+        <item>1,5mm</item>
+        <item>1,75mm</item>
+        <item>2mm</item>
+        <item>2,25mm</item>
+        <item>2,5mm</item>
+        <item>2,75mm</item>
+        <item>3mm</item>
+        <item>3,5mm</item>
+        <item>4mm</item>
+    </string-array>
+    <string-array name="turnsNumber">
+        <item>1</item>
+        <item>1,5</item>
+        <item>2</item>
+        <item>2,5</item>
+        <item>3</item>
+        <item>3,5</item>
+        <item>4</item>
+        <item>4,5</item>
+        <item>5</item>
+        <item>5,5</item>
+        <item>6</item>
+        <item>6,5</item>
+        <item>7</item>
+        <item>7,5</item>
+        <item>8</item>
+        <item>8,5</item>
+        <item>9</item>
+        <item>9,5</item>
+        <item>10</item>
+        <item>10,5</item>
+        <item>11</item>
+        <item>11,5</item>
+        <item>12</item>
+        <item>12,5</item>
+        <item>13</item>
+        <item>13,5</item>
+        <item>14</item>
+        <item>14,5</item>
+        <item>15</item>
+        <item>15,5</item>
+        <item>16</item>
+        <item>16,5</item>
+        <item>17</item>
+        <item>17,5</item>
+        <item>18</item>
+        <item>18,5</item>
+        <item>19</item>
+        <item>19,5</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="legsLength">
+        <item>2x0mm</item>
+        <item>2x0,5mm</item>
+        <item>2x1mm</item>
+        <item>2x1,5mm</item>
+        <item>2x2mm</item>
+        <item>2x2,5mm</item>
+        <item>2x3mm</item>
+        <item>2x4mm</item>
+        <item>2x5mm</item>
+    </string-array>
+    <string-array name="wireType">
+        <item>Nickel 200(Ni)</item>
+        <item>NiFe30</item>
+        <item>Dicodes Resist</item>
+        <item>Titanium(Ti)</item>
+        <item>SS AISI 316</item>
+        <item>SS AISI 304</item>
+        <item>Nichrome Ni80</item>
+        <item>Nichrome Ni60</item>
+        <item>Fechral</item>
+        <item>Kanthal D</item>
+        <item>Kanthal A1</item>
+    </string-array>
 </resources>

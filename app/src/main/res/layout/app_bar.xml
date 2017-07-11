@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/app_background"
+    android:background="@drawable/background_new"
     android:id="@+id/app_bar_layout"
     android:orientation="vertical"
-    tools:context="com.golubroman.golub.foggyspace.NavigationActivity">
+    tools:context="com.golubroman.golub.foggyspace.Shop.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"

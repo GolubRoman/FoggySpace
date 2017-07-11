@@ -8,34 +8,44 @@
     android:background="@drawable/background_get_started"
     app:theme="@style/AppTheme.NoActionBar">
 
-    <com.golubroman.golub.foggyspace.GetStartedPackage.MyVideoView
-        android:id="@+id/video_get_started"
+    <com.golubroman.golub.foggyspace.Authentication.GetStartedPackage.MyVideoView
+        android:id="@+id/video"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/welcome_get_started"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome!"
-        android:textColor="@color/seaBlue"
-        android:textSize="16sp"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_marginBottom="48dp" />
-    <ImageView
-        android:id="@+id/btn_get_started"
-        android:layout_width="150dp"
-        android:layout_height="46dp"
-        android:src="@drawable/btn_get_started"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_marginTop="128dp" />
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp" />
 
-    <ImageView
-        android:id="@+id/logo_get_started"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/logo"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp" />
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textColor="@color/seaBlue"
+            android:textSize="22sp"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+        <ImageView
+            android:id="@+id/btn_get_started"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:src="@drawable/btn_get_started"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="90dp"/>
+
+
+    </RelativeLayout>
+
+
 </FrameLayout>

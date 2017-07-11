@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "955685744209",
+    "firebase_url": "https://foggyspace-8e375.firebaseio.com",
+    "project_id": "foggyspace-8e375",
+    "storage_bucket": "foggyspace-8e375.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955685744209:android:2636ac790952ed93",
+        "android_client_info": {
+          "package_name": "com.golubroman.golub.foggyspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955685744209-q7ccpe9urnfhri8uapj92cbi9j3ohms8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.golubroman.golub.foggyspace",
+            "certificate_hash": "b9e3a5d2ca4a65cacafb09aa722eba961248339a"
+          }
+        },
+        {
+          "client_id": "955685744209-4oid1b7t5sl5s2p2faqsakgah6n6t8bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUfWQoWjUWLhpU8RP22D4gN4UFjojBjqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955685744209-4oid1b7t5sl5s2p2faqsakgah6n6t8bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

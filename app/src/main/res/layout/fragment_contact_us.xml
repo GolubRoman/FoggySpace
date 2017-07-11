@@ -15,18 +15,94 @@
 
             <TextView
                 android:id="@+id/contact_us_contact_us"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Contact us"
                 android:textColor="@color/seaBlue"
                 android:textSize="30sp"
-                android:layout_gravity="center_horizontal" />
+                android:textAlignment="center"
+                android:background="@color/headerBack"/>
             <LinearLayout
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginTop="32dp"
                 android:layout_gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/name_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name:"
+                    android:textColor="@color/seaBlue"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_name"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="bottom"/>
+
+                    <EditText
+                        android:id="@+id/edit_name_contact_us"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/seaBlue"
+                        android:theme="@style/EditText" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/cellphone_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cellphone:"
+                    android:textColor="@color/seaBlue"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_cellphone"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="bottom"/>
+
+                    <EditText
+                        android:id="@+id/edit_cellphone_contact_us"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/seaBlue"
+                        android:theme="@style/EditText" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/subject_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="subject:"
+                    android:textColor="@color/seaBlue"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_subject"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="bottom"/>
+
+                    <EditText
+                        android:id="@+id/edit_subject_contact_us"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/seaBlue"
+                        android:theme="@style/EditText" />
+                </LinearLayout>
                 <TextView
                     android:id="@+id/message_contact_us"
                     android:layout_width="wrap_content"
@@ -46,6 +122,7 @@
                         android:layout_gravity="bottom"/>
 
                     <EditText
+                        android:id="@+id/edit_message_contact_us"
                         android:layout_width="280dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/seaBlue"

@@ -5,5 +5,10 @@
     <color name="colorAccent">#FF4081</color>
     <color name="seaBlue">#AB5BEEFF</color>
     <color name="headerBack">#416B6B6B</color>
-    <color name="priceColor">#ABBA133A</color>
+    <color name="spinnerBack">#B3191970</color>
+    <color name="priceColor">#D9BA133A</color>
+
+    <color name="rightReview">#AA0073b5</color>
+    <color name="leftReview">#FF3b104b</color>
+
 </resources>
